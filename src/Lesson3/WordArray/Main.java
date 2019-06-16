@@ -24,6 +24,7 @@ public class Main {
         }
         System.out.println();
 
+        
         for (HashMap.Entry el : arr_hm.entrySet()) {
             System.out.println("Word: " + el.getKey() + " - " + el.getValue());
         }
