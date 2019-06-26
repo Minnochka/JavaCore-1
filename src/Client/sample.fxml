@@ -12,8 +12,8 @@
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ToggleGroup?>
-<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" stylesheets="@/test/css/Style.css" fx:id="test"
-      fx:controller="test.Client.Controller">
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121" stylesheets="@/css/Style.css" fx:id="test"
+      fx:controller="Client.Controller">
 
     <TextArea fx:id="textArea" editable="false" VBox.vgrow="ALWAYS" />
     <HBox>

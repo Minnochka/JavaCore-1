@@ -54,7 +54,7 @@ public class Controller implements Initializable {
     DataOutputStream out;
 
     final String IP_ADRESS = "localhost";
-    final int PORT = 8189;
+    final int PORT = 8192;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -97,22 +97,22 @@ public class Controller implements Initializable {
     public void NewStyle() {
         if (RadioBtnPink.isSelected()) {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style_pink.css");
+            test.getStylesheets().add("css/Style_pink.css");
         } else if (RadioBtnBlue.isSelected()) {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style_blue.css");
+            test.getStylesheets().add("css/Style_blue.css");
         } else if (RadioBtnGreen.isSelected()) {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style_green.css");
+            test.getStylesheets().add("css/Style_green.css");
         } else if (RadioBtnGrey.isSelected()) {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style_grey.css");
+            test.getStylesheets().add("css/Style_grey.css");
         } else if (RadioBtnYellow.isSelected()) {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style_yellow.css");
+            test.getStylesheets().add("css/Style_yellow.css");
         } else {
             test.getStylesheets().clear();
-            test.getStylesheets().add("test/css/Style.css");
+            test.getStylesheets().add("css/Style.css");
         }
     }
 
