@@ -1,0 +1,52 @@
+#btn1 {
+    -fx-background-color: #ffcc00;
+    -fx-font-family: garamond, serif, georgia;
+}
+
+#btn1: hover{
+    -fx-background-color: #f4a900;
+}
+
+#textArea {
+    -fx-text-fill: white;
+    -fx-text-size: 20px;
+    -fx-font-family: garamond, serif, georgia;
+    -fx-background-color: transparent;
+}
+#textArea .scroll-pane {
+    -fx-background-color: transparent;
+}
+#textArea .scroll-pane .content {
+    -fx-background-color: transparent;
+}
+
+#textArea .scroll-pane .viewport{
+    -fx-background-image: url("yellow.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+#RadioBtnGrey {
+    -fx-color: #403a3a;
+}
+
+
+#RadioBtnPink {
+    -fx-color: #ff9baa;
+}
+
+
+#RadioBtnBlue {
+    -fx-color: #00a1db;
+}
+
+
+#RadioBtnGreen {
+    -fx-color: #a7fc00;
+}
+
+
+#RadioBtnYellow {
+    -fx-color: #ffcc00;
+}
+
+
