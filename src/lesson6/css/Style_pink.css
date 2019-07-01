@@ -1,0 +1,55 @@
+#btn1 {
+    -fx-background-color: #ff9baa;
+    -fx-font-style: italic;
+}
+
+#btn1: hover{
+    -fx-background-color: ea8df7;
+}
+
+#btn1 .text{
+    -fx-stroke-line-cap: butt;
+}
+
+#textArea {
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+    -fx-background-color: transparent;
+}
+#textArea .scroll-pane {
+    -fx-background-color: transparent;
+}
+#textArea .scroll-pane .content {
+    -fx-background-color: transparent;
+}
+
+#textArea .scroll-pane .viewport{
+    -fx-background-image: url("bg1.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+#RadioBtnGrey {
+    -fx-color: #403a3a;
+}
+
+
+#RadioBtnPink {
+    -fx-color: #ff9baa;
+}
+
+
+#RadioBtnBlue {
+    -fx-color: #00a1db;
+}
+
+
+#RadioBtnGreen {
+    -fx-color: #a7fc00;
+}
+
+
+#RadioBtnYellow {
+    -fx-color: #ffcc00;
+}
+
+
